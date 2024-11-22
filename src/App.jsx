@@ -1,11 +1,12 @@
-import React from 'react'
-import { NevBar } from './components/NevBar'
-import Hero from './components/Hero'
-import { About } from './components/About'
-import Technologies from './components/Technologies'
-import { Experience } from './components/Experience'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Hero from "./components/Hero"
+import NevBar from "./components/Nevbar"
+import About from "./components/About"
+import Technologies from "./components/Technologies"
+import Experience from "./components/Experience"
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
+
+
 
 const App = () => {
   return (

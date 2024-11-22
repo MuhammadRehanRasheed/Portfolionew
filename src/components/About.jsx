@@ -1,9 +1,8 @@
-import React from 'react'
 import aboutImg from "../assets/about.jpg"
 import { ABOUT_TEXT } from '../constants'
 import { motion } from 'motion/react'
 
-export const About = () => {
+const About = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
         <h1 className='my-20 text-center text-4xl'>
@@ -25,3 +24,5 @@ export const About = () => {
     </div>
   )
 }
+
+export default About;
